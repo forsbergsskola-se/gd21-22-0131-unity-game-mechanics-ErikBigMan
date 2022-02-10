@@ -13,7 +13,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{71665ca8-1059-47fe-64d2-677955f90dea}</ProjectGuid>
+    <ProjectGuid>{0b440379-5e70-7c95-023f-f0a0828be409}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -52,37 +52,37 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Library\PackageCache\com.unity.probuilder@4.5.2\External\Poly2Tri\Triangulation\TriangulationDebugContext.cs" />
-     <Compile Include="Library\PackageCache\com.unity.probuilder@4.5.2\External\Poly2Tri\Triangulation\Delaunay\Sweep\DTSweepEdgeEvent.cs" />
-     <Compile Include="Library\PackageCache\com.unity.probuilder@4.5.2\External\Poly2Tri\AssemblyInfo.cs" />
      <Compile Include="Library\PackageCache\com.unity.probuilder@4.5.2\External\Poly2Tri\Triangulation\TriangulationConstraint.cs" />
-     <Compile Include="Library\PackageCache\com.unity.probuilder@4.5.2\External\Poly2Tri\Triangulation\TriangulationContext.cs" />
-     <Compile Include="Library\PackageCache\com.unity.probuilder@4.5.2\External\Poly2Tri\Triangulation\Sets\PointSet.cs" />
      <Compile Include="Library\PackageCache\com.unity.probuilder@4.5.2\External\Poly2Tri\Polygon\Polygon.cs" />
      <Compile Include="Library\PackageCache\com.unity.probuilder@4.5.2\External\Poly2Tri\Triangulation\Delaunay\Sweep\DTSweepPointComparator.cs" />
+     <Compile Include="Library\PackageCache\com.unity.probuilder@4.5.2\External\Poly2Tri\Triangulation\Delaunay\DelaunayTriangle.cs" />
+     <Compile Include="Library\PackageCache\com.unity.probuilder@4.5.2\External\Poly2Tri\Triangulation\Orientation.cs" />
+     <Compile Include="Library\PackageCache\com.unity.probuilder@4.5.2\External\Poly2Tri\Triangulation\Util\PolygonGenerator.cs" />
+     <Compile Include="Library\PackageCache\com.unity.probuilder@4.5.2\External\Poly2Tri\Triangulation\TriangulationMode.cs" />
+     <Compile Include="Library\PackageCache\com.unity.probuilder@4.5.2\External\Poly2Tri\Triangulation\TriangulationDebugContext.cs" />
+     <Compile Include="Library\PackageCache\com.unity.probuilder@4.5.2\External\Poly2Tri\Triangulation\Sets\PointSet.cs" />
+     <Compile Include="Library\PackageCache\com.unity.probuilder@4.5.2\External\Poly2Tri\Triangulation\TriangulationUtil.cs" />
+     <Compile Include="Library\PackageCache\com.unity.probuilder@4.5.2\External\Poly2Tri\Triangulation\Delaunay\Sweep\AdvancingFrontNode.cs" />
+     <Compile Include="Library\PackageCache\com.unity.probuilder@4.5.2\External\Poly2Tri\Triangulation\Delaunay\Sweep\DTSweepEdgeEvent.cs" />
      <Compile Include="Library\PackageCache\com.unity.probuilder@4.5.2\External\Poly2Tri\Triangulation\Delaunay\Sweep\DTSweepContext.cs" />
      <Compile Include="Library\PackageCache\com.unity.probuilder@4.5.2\External\Poly2Tri\Utility\FixedArray3.cs" />
-     <Compile Include="Library\PackageCache\com.unity.probuilder@4.5.2\External\Poly2Tri\Triangulation\Delaunay\DelaunayTriangle.cs" />
-     <Compile Include="Library\PackageCache\com.unity.probuilder@4.5.2\External\Poly2Tri\Triangulation\Delaunay\Sweep\DTSweepDebugContext.cs" />
      <Compile Include="Library\PackageCache\com.unity.probuilder@4.5.2\External\Poly2Tri\Triangulation\Delaunay\Sweep\DTSweep.cs" />
-     <Compile Include="Library\PackageCache\com.unity.probuilder@4.5.2\External\Poly2Tri\Triangulation\TriangulationPoint.cs" />
      <Compile Include="Library\PackageCache\com.unity.probuilder@4.5.2\External\Poly2Tri\Triangulation\Sets\ConstrainedPointSet.cs" />
      <Compile Include="Library\PackageCache\com.unity.probuilder@4.5.2\External\Poly2Tri\Triangulation\Util\PointGenerator.cs" />
-     <Compile Include="Library\PackageCache\com.unity.probuilder@4.5.2\External\Poly2Tri\Triangulation\Orientation.cs" />
+     <Compile Include="Library\PackageCache\com.unity.probuilder@4.5.2\External\Poly2Tri\Triangulation\Delaunay\Sweep\DTSweepBasin.cs" />
+     <Compile Include="Library\PackageCache\com.unity.probuilder@4.5.2\External\Poly2Tri\Triangulation\ITriangulatable.cs" />
+     <Compile Include="Library\PackageCache\com.unity.probuilder@4.5.2\External\Poly2Tri\Triangulation\Delaunay\Sweep\PointOnEdgeException.cs" />
+     <Compile Include="Library\PackageCache\com.unity.probuilder@4.5.2\External\Poly2Tri\Triangulation\TriangulationAlgorithm.cs" />
+     <Compile Include="Library\PackageCache\com.unity.probuilder@4.5.2\External\Poly2Tri\Utility\FixedBitArray3.cs" />
+     <Compile Include="Library\PackageCache\com.unity.probuilder@4.5.2\External\Poly2Tri\AssemblyInfo.cs" />
+     <Compile Include="Library\PackageCache\com.unity.probuilder@4.5.2\External\Poly2Tri\Triangulation\TriangulationContext.cs" />
+     <Compile Include="Library\PackageCache\com.unity.probuilder@4.5.2\External\Poly2Tri\Triangulation\Delaunay\Sweep\DTSweepDebugContext.cs" />
+     <Compile Include="Library\PackageCache\com.unity.probuilder@4.5.2\External\Poly2Tri\Triangulation\TriangulationPoint.cs" />
      <Compile Include="Library\PackageCache\com.unity.probuilder@4.5.2\External\Poly2Tri\Triangulation\Delaunay\Sweep\DTSweepConstraint.cs" />
      <Compile Include="Library\PackageCache\com.unity.probuilder@4.5.2\External\Poly2Tri\Triangulation\Delaunay\Sweep\AdvancingFront.cs" />
      <Compile Include="Library\PackageCache\com.unity.probuilder@4.5.2\External\Poly2Tri\Polygon\PolygonPoint.cs" />
      <Compile Include="Library\PackageCache\com.unity.probuilder@4.5.2\External\Poly2Tri\P2T.cs" />
-     <Compile Include="Library\PackageCache\com.unity.probuilder@4.5.2\External\Poly2Tri\Triangulation\Delaunay\Sweep\DTSweepBasin.cs" />
-     <Compile Include="Library\PackageCache\com.unity.probuilder@4.5.2\External\Poly2Tri\Triangulation\ITriangulatable.cs" />
-     <Compile Include="Library\PackageCache\com.unity.probuilder@4.5.2\External\Poly2Tri\Triangulation\Delaunay\Sweep\PointOnEdgeException.cs" />
      <Compile Include="Library\PackageCache\com.unity.probuilder@4.5.2\External\Poly2Tri\Polygon\PolygonSet.cs" />
-     <Compile Include="Library\PackageCache\com.unity.probuilder@4.5.2\External\Poly2Tri\Triangulation\TriangulationUtil.cs" />
-     <Compile Include="Library\PackageCache\com.unity.probuilder@4.5.2\External\Poly2Tri\Triangulation\TriangulationAlgorithm.cs" />
-     <Compile Include="Library\PackageCache\com.unity.probuilder@4.5.2\External\Poly2Tri\Triangulation\Util\PolygonGenerator.cs" />
-     <Compile Include="Library\PackageCache\com.unity.probuilder@4.5.2\External\Poly2Tri\Utility\FixedBitArray3.cs" />
-     <Compile Include="Library\PackageCache\com.unity.probuilder@4.5.2\External\Poly2Tri\Triangulation\TriangulationMode.cs" />
-     <Compile Include="Library\PackageCache\com.unity.probuilder@4.5.2\External\Poly2Tri\Triangulation\Delaunay\Sweep\AdvancingFrontNode.cs" />
      <None Include="Library\PackageCache\com.unity.probuilder@4.5.2\External\Poly2Tri\Unity.ProBuilder.Poly2Tri.asmdef" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.dll</HintPath>
@@ -280,7 +280,7 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.XRModule.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>C:/Projects/game mechanics game/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>C:/Projects/gd21-22-0131-unity-game-mechanics-ErikBigMan/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -630,7 +630,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{77fbd6dc-8a75-ed27-de30-1b4b142a0bc3}</Project>
+      <Project>{4aacf546-e344-0cef-2511-4d9543881691}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>

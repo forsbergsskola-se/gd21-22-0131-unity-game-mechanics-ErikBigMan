@@ -13,7 +13,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{4c3827ca-521b-e566-b128-38024d93493b}</ProjectGuid>
+    <ProjectGuid>{1a97c0f6-ee3f-efb8-2879-11f81b329920}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -53,9 +53,9 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Library\PackageCache\com.unity.probuilder@4.5.2\External\StlExporter\Code\pb_Stl.cs" />
-     <Compile Include="Library\PackageCache\com.unity.probuilder@4.5.2\External\StlExporter\Code\pb_Stl_Importer.cs" />
-     <Compile Include="Library\PackageCache\com.unity.probuilder@4.5.2\External\StlExporter\Code\pb_Stl_Exporter.cs" />
      <Compile Include="Library\PackageCache\com.unity.probuilder@4.5.2\External\StlExporter\AssemblyInfo.cs" />
+     <Compile Include="Library\PackageCache\com.unity.probuilder@4.5.2\External\StlExporter\Code\pb_Stl_Exporter.cs" />
+     <Compile Include="Library\PackageCache\com.unity.probuilder@4.5.2\External\StlExporter\Code\pb_Stl_Importer.cs" />
      <None Include="Library\PackageCache\com.unity.probuilder@4.5.2\External\StlExporter\Unity.ProBuilder.Stl.asmdef" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -285,20 +285,17 @@
  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
- <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
- <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
- </Reference>
  <Reference Include="Unity.Plastic.Newtonsoft.Json">
- <HintPath>C:/Projects/game mechanics game/Library/PackageCache/com.unity.collab-proxy@1.9.0/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+ <HintPath>C:/Projects/gd21-22-0131-unity-game-mechanics-ErikBigMan/Library/PackageCache/com.unity.collab-proxy@1.9.0/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Plastic.Antlr3.Runtime">
- <HintPath>C:/Projects/game mechanics game/Library/PackageCache/com.unity.collab-proxy@1.9.0/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+ <HintPath>C:/Projects/gd21-22-0131-unity-game-mechanics-ErikBigMan/Library/PackageCache/com.unity.collab-proxy@1.9.0/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="log4netPlastic">
- <HintPath>C:/Projects/game mechanics game/Library/PackageCache/com.unity.collab-proxy@1.9.0/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+ <HintPath>C:/Projects/gd21-22-0131-unity-game-mechanics-ErikBigMan/Library/PackageCache/com.unity.collab-proxy@1.9.0/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
  </Reference>
  <Reference Include="unityplastic">
- <HintPath>C:/Projects/game mechanics game/Library/PackageCache/com.unity.collab-proxy@1.9.0/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+ <HintPath>C:/Projects/gd21-22-0131-unity-game-mechanics-ErikBigMan/Library/PackageCache/com.unity.collab-proxy@1.9.0/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -648,11 +645,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{8776230c-c35c-1a90-96af-827490e80325}</Project>
+      <Project>{5adb7ff4-7f79-2971-4bfc-7c8800cee72d}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{77fbd6dc-8a75-ed27-de30-1b4b142a0bc3}</Project>
+      <Project>{4aacf546-e344-0cef-2511-4d9543881691}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>

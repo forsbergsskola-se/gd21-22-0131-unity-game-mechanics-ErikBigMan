@@ -1,20 +1,24 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditorInternal;
+//using UnityEditorInternal;
 using UnityEngine;
 
 public class BetterFly : MonoBehaviour
 {
    public float fallMultiplier = 2.5f;
    public float flyBoostMultiplier = 2f;
-
+   public float forwardForce = 2f;
+      
    Rigidbody rb;
-
+   
+   
    private void Awake()
    {
       rb = GetComponent<Rigidbody>();
    }
+   
+   
    private void Update()
    {
       if (rb.velocity.y < 0)

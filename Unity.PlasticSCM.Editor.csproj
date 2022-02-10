@@ -13,7 +13,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{43d4e26c-3a03-26f4-feae-8450fc20cd13}</ProjectGuid>
+    <ProjectGuid>{30937f57-13b1-d3fa-17ae-90eb9f095c32}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -69,8 +69,8 @@
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.9.0\Editor\PlasticSCM\UI\UIElements\TabView.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.9.0\Editor\PlasticSCM\AssetsUtils\Processor\AssetPostprocessor.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.9.0\Editor\PlasticSCM\Views\Diff\ChangeCategoryTreeViewItem.cs" />
-     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.9.0\Editor\PlasticSCM\Views\History\HistorySelection.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.9.0\Editor\PlasticSCM\Gluon\UpdateReport\UpdateReportListHeaderState.cs" />
+     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.9.0\Editor\PlasticSCM\Views\History\HistorySelection.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.9.0\Editor\PlasticSCM\UI\PlasticDialog.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.9.0\Editor\PlasticSCM\Inspector\DrawInspectorOperations.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.9.0\Editor\PlasticSCM\UI\Tree\TreeHeaderColumns.cs" />
@@ -198,8 +198,8 @@
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.9.0\Editor\PlasticSCM\UI\DrawActionHelpBox.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.9.0\Editor\PlasticSCM\UI\UIElements\ProgressControlsForDialogs.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.9.0\Editor\PlasticSCM\UI\DrawSearchField.cs" />
-     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.9.0\Editor\PlasticSCM\Views\Diff\DiffPanel.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.9.0\Editor\PlasticSCM\Views\Welcome\DownloadAndInstallOperation.cs" />
+     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.9.0\Editor\PlasticSCM\Views\Diff\DiffPanel.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.9.0\Editor\PlasticSCM\Views\IncomingChanges\Developer\DirectoryConflicts\ConflictResolutionState.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.9.0\Editor\PlasticSCM\Gluon\ProgressOperationHandler.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.9.0\Editor\PlasticSCM\WebApi\TokenExchangeResponse.cs" />
@@ -241,10 +241,10 @@
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.9.0\Editor\PlasticSCM\Views\PendingChanges\PendingChangesMultiColumnHeader.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.9.0\Editor\PlasticSCM\AssetsUtils\Processor\PlasticAssetsProcessor.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.9.0\Editor\PlasticSCM\Views\CreateWorkspace\DrawCreateWorkspaceView.cs" />
-     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.9.0\Editor\PlasticSCM\Views\Changesets\ChangesetsListHeaderState.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.9.0\Editor\PlasticSCM\DrawGuiModeSwitcher.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.9.0\Editor\PlasticSCM\Gluon\UpdateReport\UpdateReportListView.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.9.0\Editor\PlasticSCM\CheckWorkspaceTreeNodeStatus.cs" />
+     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.9.0\Editor\PlasticSCM\Views\Changesets\ChangesetsListHeaderState.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.9.0\Editor\PlasticSCM\Tool\LaunchTool.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.9.0\Editor\PlasticSCM\AssetsUtils\Processor\AssetsProcessor.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.9.0\Editor\PlasticSCM\ViewSwitcher.cs" />
@@ -564,17 +564,14 @@
  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
- <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
- <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
- </Reference>
  <Reference Include="unityplastic">
- <HintPath>C:/Projects/game mechanics game/Library/PackageCache/com.unity.collab-proxy@1.9.0/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+ <HintPath>C:/Projects/gd21-22-0131-unity-game-mechanics-ErikBigMan/Library/PackageCache/com.unity.collab-proxy@1.9.0/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Plastic.Newtonsoft.Json">
- <HintPath>C:/Projects/game mechanics game/Library/PackageCache/com.unity.collab-proxy@1.9.0/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+ <HintPath>C:/Projects/gd21-22-0131-unity-game-mechanics-ErikBigMan/Library/PackageCache/com.unity.collab-proxy@1.9.0/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
- <HintPath>C:/Projects/game mechanics game/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+ <HintPath>C:/Projects/gd21-22-0131-unity-game-mechanics-ErikBigMan/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -927,19 +924,19 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{8776230c-c35c-1a90-96af-827490e80325}</Project>
+      <Project>{5adb7ff4-7f79-2971-4bfc-7c8800cee72d}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{77fbd6dc-8a75-ed27-de30-1b4b142a0bc3}</Project>
+      <Project>{4aacf546-e344-0cef-2511-4d9543881691}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{8cdc546c-2cc3-c65c-3629-0fcf7845b2e7}</Project>
+      <Project>{caa74e42-41df-5f7f-32af-49a0cd76bba3}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{fd3517ba-ec11-4a83-b196-46a70dd81725}</Project>
+      <Project>{42fe11cd-17f3-6b9d-a1de-34f940a2431d}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>
