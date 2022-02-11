@@ -7,10 +7,10 @@ using UnityEngine;
 public class fly : MonoBehaviour
 {
     
-    public float jetpackDuration;
-    public float rechargeDuration;
-    public float boost;
-    public float Grounded = 1f;
+    //public float jetpackDuration;
+    //public float rechargeDuration;
+    //public float boost = 1;
+    //public float Grounded = 1f;
     
     
     public Rigidbody rb;
@@ -23,24 +23,24 @@ public class fly : MonoBehaviour
         rb = GetComponent<Rigidbody>();
     }
 
-    [SerializeField] private void movmentscript()
+    public void movmentscript()
     {
         if (Input.GetButtonDown("HorizontalRight"))
         {
             GetComponent<Rigidbody>().velocity = Vector3.up * flyVelocity;
             rb.AddForce(transform.right * flyForwardVelocity);
-            boost-=Time.deltaTime/jetpackDuration;
+            //boost-=Time.deltaTime/jetpackDuration;
         }
         else if (Input.GetButtonDown("HorizontalLeft"))
         {
             GetComponent<Rigidbody>().velocity = Vector3.up * flyVelocity;
             rb.AddForce(-transform.right * flyForwardVelocity); 
-            boost-=Time.deltaTime/jetpackDuration;
+            //boost-=Time.deltaTime/jetpackDuration;
         }
         else if (Input.GetButton("Jump"))
         {
-            rb.AddForce(transform.up * flyVelocity);
-            boost-=Time.deltaTime/jetpackDuration;
+            GetComponent<Rigidbody>().velocity = Vector3.up * flyVelocity;
+            //boost-=Time.deltaTime/jetpackDuration;
         } 
     }
     
@@ -49,16 +49,20 @@ public class fly : MonoBehaviour
     {
         movmentscript();
         
-        var isgrounded = Physics.Raycast(transform.position, Vector3.down, Grounded);
+        /*var isgrounded = Physics.Raycast(transform.position, Vector3.down, Grounded);
 
-        if (isgrounded)
-        {
-          boost = Mathf.Clamp(boost+Time.deltaTime/rechargeDuration, 0, 1);  
-        }
-
-        if (Input.GetButton("Jump") || Input.GetButtonDown("HorizontalLeft") || Input.GetButtonDown("HorizontalRight") && boost > 0)
+        if (Input.GetButton("Jump") && boost < 0|| Input.GetButtonDown("HorizontalLeft") && boost < 0|| Input.GetButtonDown("HorizontalRight") && boost < 0)
         {
             movmentscript(); enabled = false;
         }
-    } 
+        if (isgrounded)
+        { 
+            boost = Mathf.Clamp(boost+Time.deltaTime/rechargeDuration, 1, 1);
+            if (boost > 0)
+            {
+                movmentscript();
+                enabled = true;
+            }
+        }*/
+    }
 }

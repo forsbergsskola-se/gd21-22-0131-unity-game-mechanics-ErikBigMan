@@ -605,10 +605,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e327fa23a58b334ab7dd1774e70b83b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jetpackDuration: 1
-  rechargeDuration: 0
-  boost: 1
-  Grounded: 1
   rb: {fileID: 0}
   flyVelocity: 10
   flyForwardVelocity: 50
