@@ -58,7 +58,7 @@ public class fly : MonoBehaviour
 
         if (Input.GetButton("Jump") || Input.GetButtonDown("HorizontalLeft") || Input.GetButtonDown("HorizontalRight") && boost > 0)
         {
-            //movmentscript = null;
+            movmentscript(); enabled = false;
         }
     } 
 }
