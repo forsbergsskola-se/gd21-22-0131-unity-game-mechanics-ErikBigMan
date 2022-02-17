@@ -54,6 +54,7 @@
   <ItemGroup>
      <Compile Include="Assets\collisionDestroy.cs" />
      <Compile Include="Assets\Scripts\{Erik Mattsson}\Flying Script\BetterFly.cs" />
+     <Compile Include="Assets\Scripts\{Erik Mattsson}\Flying Script\fly2.cs" />
      <Compile Include="Assets\Scripts\{Erik Mattsson}\Flying Script\fly.cs" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.dll</HintPath>
